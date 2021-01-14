@@ -60,6 +60,7 @@ ostream& operator << (ostream& out, pair<T, U>& v){
 #define g_tan(a)            tan(a*pi/180)
 // set val
 #define ms0(a)              memset(a,        0, sizeof(a));
+
 #define ms1(a)              memset(a,        1, sizeof(a));
 #define msn1(a)             memset(a,       -1, sizeof(a));
 #define msinf(a)            memset(a, 0x3f3f3f, sizeof(a));
